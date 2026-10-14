@@ -1047,6 +1047,160 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -3947,16 +4101,34 @@
 		)
 	)
 	(junction
-		(at 186.69 73.66)
+		(at 214.63 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0c29eed8-bd3d-4dfa-96af-f1e7eb499522")
+		(uuid "03b87139-3927-4d5c-bd6b-557c25f9d796")
+	)
+	(junction
+		(at 227.33 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d32e2b2-a399-4e56-9a8a-c3e66ab5264f")
 	)
 	(junction
 		(at 74.93 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f8b86c9-a690-44a9-8a5a-57119494f1c3")
+	)
+	(junction
+		(at 214.63 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10ccc30a-9c9f-49c9-b2cc-ba9eea799a0e")
+	)
+	(junction
+		(at 227.33 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1365dc1d-e8e5-41e1-aa45-b3f0b07e7a39")
 	)
 	(junction
 		(at 77.47 26.67)
@@ -3977,10 +4149,10 @@
 		(uuid "1c95a916-1b74-4e22-93cd-67430af08ef3")
 	)
 	(junction
-		(at 171.45 83.82)
+		(at 179.07 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1d55a67d-9d16-4d1c-949e-130ad9c7d90f")
+		(uuid "2594a76e-db44-4446-b05a-953bf8968ab2")
 	)
 	(junction
 		(at 144.78 44.45)
@@ -3989,10 +4161,40 @@
 		(uuid "26a4ea23-5a09-48d5-92c3-0c9dd8ffafe0")
 	)
 	(junction
-		(at 186.69 83.82)
+		(at 214.63 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "29fbd770-6d51-488b-b4cf-88951368062e")
+		(uuid "29580b92-ce68-4ce5-ad22-9dcc25fda7dc")
+	)
+	(junction
+		(at 214.63 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2aca0410-e763-4d03-b0dc-ea9c802196d2")
+	)
+	(junction
+		(at 179.07 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "323093a5-4970-44c7-87c8-036d61420bf6")
+	)
+	(junction
+		(at 179.07 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34b502b3-04fc-451d-8f37-19de927a9600")
+	)
+	(junction
+		(at 196.85 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ba19b2e-aefd-488d-94f4-212efa91c922")
+	)
+	(junction
+		(at 214.63 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c301963-5dd0-4058-a8d0-5488bac704f1")
 	)
 	(junction
 		(at 152.4 49.53)
@@ -4001,16 +4203,28 @@
 		(uuid "41d8b0aa-7ba6-4f86-bfcc-923e9a9f51de")
 	)
 	(junction
+		(at 179.07 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "464355e6-2285-4a5a-b19f-bf11ecc9aa0a")
+	)
+	(junction
 		(at 137.16 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46aa7de4-8830-4279-8223-14951d6f3366")
 	)
 	(junction
-		(at 191.77 83.82)
+		(at 228.6 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "472f9b11-de1a-40b3-b879-aa68146475c3")
+	)
+	(junction
+		(at 209.55 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47944cec-344a-4b8a-924f-022cda8ceab9")
 	)
 	(junction
 		(at 82.55 100.33)
@@ -4025,10 +4239,22 @@
 		(uuid "4d275886-c619-40bc-8144-24cfd6ab0053")
 	)
 	(junction
+		(at 173.99 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52907ed4-69f2-446a-972b-0af268670dde")
+	)
+	(junction
 		(at 86.36 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55bb8813-31d9-4366-8020-d6d088728d61")
+	)
+	(junction
+		(at 173.99 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "568e2f8d-cd3c-4938-bb14-9902ccc31244")
 	)
 	(junction
 		(at 116.84 44.45)
@@ -4037,10 +4263,22 @@
 		(uuid "58f9e314-63e9-4204-870b-91e75187ee90")
 	)
 	(junction
+		(at 179.07 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5aa589cc-bd48-44c5-9480-fb2e3fb8b61d")
+	)
+	(junction
 		(at 72.39 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b6975b6-79be-4926-9a65-6913948a1762")
+	)
+	(junction
+		(at 191.77 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b88973f-7acf-4131-8214-5c7ecd5a4e12")
 	)
 	(junction
 		(at 77.47 71.12)
@@ -4055,6 +4293,24 @@
 		(uuid "61de9775-94cb-47f4-9552-b5a450213ff4")
 	)
 	(junction
+		(at 179.07 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62479934-843f-4757-98ad-1e8e69e176dd")
+	)
+	(junction
+		(at 191.77 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6619524e-2dda-414f-9de0-29c77959b2c2")
+	)
+	(junction
+		(at 209.55 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67fc6065-0c63-4c01-9d08-c4f6cd4be7ce")
+	)
+	(junction
 		(at 95.25 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4067,16 +4323,28 @@
 		(uuid "6f348cda-809c-48da-b2f2-88e5353bb756")
 	)
 	(junction
+		(at 196.85 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "728b968d-068b-4b41-b207-43e68a076ee7")
+	)
+	(junction
 		(at 72.39 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76c8e244-d7e1-4854-a9f1-b13b02faf550")
 	)
 	(junction
-		(at 179.07 83.82)
+		(at 196.85 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7ec0c263-b196-467d-ad88-0d65959e6246")
+		(uuid "7f8cabba-78f7-4575-9e4b-ff7ee7635025")
+	)
+	(junction
+		(at 133.35 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "829a8ebb-1de4-4575-abe5-b052ce1f4c67")
 	)
 	(junction
 		(at 118.11 53.34)
@@ -4085,10 +4353,40 @@
 		(uuid "888eb7a4-0ed3-430d-822b-1f8c627ba02f")
 	)
 	(junction
+		(at 191.77 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88cdbd81-d21f-4b24-9205-5eb5391a5713")
+	)
+	(junction
+		(at 214.63 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b1eff0b-1f78-437d-9f05-d294eb4da941")
+	)
+	(junction
+		(at 196.85 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f5b3107-756f-436f-beed-82cc56d11636")
+	)
+	(junction
+		(at 173.99 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92c7d9e0-8446-41ad-8fa8-cf8afbd941f3")
+	)
+	(junction
 		(at 74.93 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93b336b3-752a-4e4a-819a-4d067ddc8a54")
+	)
+	(junction
+		(at 173.99 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9666ad92-48a4-4def-aea2-dc70b2d99103")
 	)
 	(junction
 		(at 120.65 53.34)
@@ -4103,28 +4401,16 @@
 		(uuid "9a3ebff3-335a-4bc5-bf2f-c85068dea414")
 	)
 	(junction
-		(at 191.77 93.98)
+		(at 228.6 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bfd1e56-e799-4974-8992-145735912cb0")
 	)
 	(junction
-		(at 171.45 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c78db61-ee8d-433b-9bcd-cfa3a3324143")
-	)
-	(junction
-		(at 191.77 104.14)
+		(at 228.6 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e1e7f2c-e78b-46d6-8a46-63ee90238376")
-	)
-	(junction
-		(at 186.69 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a137c937-c8d0-465b-b302-39f8a4331f33")
 	)
 	(junction
 		(at 137.16 49.53)
@@ -4133,10 +4419,22 @@
 		(uuid "af0150d2-59a8-4696-b9c5-85db8f338e17")
 	)
 	(junction
+		(at 196.85 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2838f03-bb9a-420b-8386-cf7ef108991c")
+	)
+	(junction
 		(at 115.57 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3d3e49b-988d-4c98-a766-a26590f72ea0")
+	)
+	(junction
+		(at 209.55 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b48bd59e-f68d-4bbb-9dfe-c86bb1dad7f9")
 	)
 	(junction
 		(at 72.39 133.35)
@@ -4145,10 +4443,22 @@
 		(uuid "bd518073-95fc-4a21-b4d5-384ea754ff4e")
 	)
 	(junction
-		(at 172.72 104.14)
+		(at 161.29 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c77fc273-8154-486d-b677-0a1a205de74a")
+		(uuid "c12c5a27-ada4-4094-9503-67aa2f4a8f21")
+	)
+	(junction
+		(at 179.07 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2762a20-c7c0-4e87-a05c-eb83f3370075")
+	)
+	(junction
+		(at 161.29 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c81eaf25-a5c1-497e-8b05-05ceccb6c8ad")
 	)
 	(junction
 		(at 144.78 49.53)
@@ -4157,16 +4467,52 @@
 		(uuid "ccc95dd3-b448-4f6a-af43-8d13edd57bf9")
 	)
 	(junction
+		(at 214.63 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce5c078a-0c9f-4eef-991d-1ed3867d93d3")
+	)
+	(junction
+		(at 209.55 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1c03eee-d9db-4468-9be3-1a48cf6285e1")
+	)
+	(junction
+		(at 196.85 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2a9696f-e77c-46ff-9bdd-640bb7105c8b")
+	)
+	(junction
 		(at 113.03 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d301a975-a4a7-4516-a353-e58845989368")
 	)
 	(junction
-		(at 187.96 104.14)
+		(at 179.07 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "db4e061d-bf3a-4224-bd53-106c5012c848")
+		(uuid "d83c52b9-28df-4f39-943e-983e0c9eb445")
+	)
+	(junction
+		(at 161.29 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da0a198e-ab4f-43df-9c9d-f3175708ec66")
+	)
+	(junction
+		(at 191.77 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "daf64721-b3cd-46fd-91ae-94d119cd5112")
+	)
+	(junction
+		(at 214.63 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddc71bbb-413d-41c9-a195-5ae6f2a8c4be")
 	)
 	(junction
 		(at 116.84 53.34)
@@ -4175,16 +4521,40 @@
 		(uuid "e072b5d5-25c3-4861-a4c0-bbeeff8a8476")
 	)
 	(junction
-		(at 179.07 73.66)
+		(at 161.29 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e5db1238-867f-4ad9-9aa3-471a568c61cc")
+		(uuid "e4aac0c2-8b2f-4e6b-9589-260ac9f15c31")
 	)
 	(junction
-		(at 179.07 93.98)
+		(at 133.35 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e68217c3-19c5-4f46-8722-3aaba086bd20")
+		(uuid "e5121b28-b695-4149-a9e3-6dfa57f8d351")
+	)
+	(junction
+		(at 196.85 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9142575-faa7-410a-b516-4d2e33dca247")
+	)
+	(junction
+		(at 133.35 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9ee39b5-535a-4613-8244-cf34b0ab5d09")
+	)
+	(junction
+		(at 227.33 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee45183d-28d6-437f-99b4-d344817f1974")
+	)
+	(junction
+		(at 196.85 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f04eff90-1481-4110-98bb-13d3a7c80e9a")
 	)
 	(junction
 		(at 160.02 49.53)
@@ -4199,12 +4569,6 @@
 		(uuid "f160bf27-15e0-4dbb-906c-60bdbed07971")
 	)
 	(junction
-		(at 180.34 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5667768-2c8e-439d-9439-ae827f0fbe50")
-	)
-	(junction
 		(at 160.02 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4217,56 +4581,26 @@
 		(uuid "fc24536b-cb6d-4cc1-878d-5d3eb0bc11c7")
 	)
 	(junction
+		(at 227.33 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "feb3ec7d-6aef-436d-a207-c033714328ec")
+	)
+	(junction
 		(at 129.54 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fef7eefa-b431-4265-b1c4-832b6604b2a0")
 	)
-	(junction
-		(at 171.45 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff99e154-7030-40cc-a07c-98678ca766c9")
-	)
 	(wire
 		(pts
-			(xy 167.64 97.79) (xy 151.13 97.79)
+			(xy 196.85 93.98) (xy 209.55 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00bd5e61-c46b-4a7e-b0bc-94553807f9fa")
-	)
-	(wire
-		(pts
-			(xy 163.83 93.98) (xy 171.45 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02b98f1f-fc80-4564-a2c9-977a472b4133")
-	)
-	(wire
-		(pts
-			(xy 191.77 104.14) (xy 187.96 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03c7479f-5af7-41c3-b094-d5933acb3ab6")
-	)
-	(wire
-		(pts
-			(xy 173.99 76.2) (xy 173.99 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "058c9395-071d-4ba7-b338-3087a31687cc")
+		(uuid "05e66349-2b16-4f73-b0d4-31b207514772")
 	)
 	(wire
 		(pts
@@ -4290,13 +4624,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 104.14) (xy 180.34 104.14)
+			(xy 214.63 73.66) (xy 227.33 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b9fa7c3-1ff2-4ae8-87a8-5024a5148914")
+		(uuid "0a46807e-9d03-44ae-ae85-e64804dc10de")
 	)
 	(wire
 		(pts
@@ -4310,23 +4644,33 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 83.82) (xy 171.45 83.82)
+			(xy 196.85 86.36) (xy 154.94 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d72bc2b-7fb1-4e28-bb41-7f210765e5a9")
+		(uuid "0d62cf60-feea-43cb-9d2e-8bf52a1e8e24")
 	)
 	(wire
 		(pts
-			(xy 166.37 77.47) (xy 153.67 77.47)
+			(xy 184.15 99.06) (xy 186.69 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e68ee35-d899-455d-86f0-45db9a45a471")
+		(uuid "0ebe461b-4cd4-41ee-ae01-0a8acc81477b")
+	)
+	(wire
+		(pts
+			(xy 179.07 97.79) (xy 179.07 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f20d80d-35a5-4685-8763-244c96f27755")
 	)
 	(wire
 		(pts
@@ -4340,13 +4684,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 78.74) (xy 181.61 74.93)
+			(xy 173.99 73.66) (xy 179.07 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1189fb02-8651-409d-b318-2fdd64450abf")
+		(uuid "10527e84-2ddf-41b4-b406-48e0e60b83c0")
 	)
 	(wire
 		(pts
@@ -4360,7 +4704,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 74.93) (xy 181.61 74.93)
+			(xy 156.21 74.93) (xy 214.63 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4377,6 +4721,16 @@
 			(type default)
 		)
 		(uuid "16a0235b-d8ff-46fa-a448-3466065aa4a1")
+	)
+	(wire
+		(pts
+			(xy 209.55 93.98) (xy 214.63 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1757f044-0d89-427f-bdad-573811470730")
 	)
 	(wire
 		(pts
@@ -4400,13 +4754,23 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 85.09) (xy 181.61 85.09)
+			(xy 156.21 85.09) (xy 214.63 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "19e83e07-75ca-4f6c-be30-14676e1bdeae")
+	)
+	(wire
+		(pts
+			(xy 214.63 74.93) (xy 214.63 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a6f8a68-4f8d-4306-8c38-5c9003527d27")
 	)
 	(wire
 		(pts
@@ -4420,7 +4784,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 83.82) (xy 186.69 83.82)
+			(xy 173.99 83.82) (xy 179.07 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4430,17 +4794,17 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 73.66) (xy 186.69 73.66)
+			(xy 166.37 88.9) (xy 168.91 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e312b5a-f03b-4d39-ae9e-2f2e3657309a")
+		(uuid "1c1ae03d-158e-4ad1-9f67-b8a585a5bb48")
 	)
 	(wire
 		(pts
-			(xy 153.67 87.63) (xy 166.37 87.63)
+			(xy 153.67 87.63) (xy 179.07 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4450,17 +4814,27 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 99.06) (xy 175.26 96.52)
+			(xy 214.63 93.98) (xy 227.33 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f1559b6-2207-4b62-a3fb-1767b9b18e10")
+		(uuid "1efff91d-e194-4965-8261-ef4776b2817b")
 	)
 	(wire
 		(pts
-			(xy 158.75 78.74) (xy 133.35 78.74)
+			(xy 191.77 104.14) (xy 196.85 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f501895-8861-4c84-8eb6-6ee1e67f683a")
+	)
+	(wire
+		(pts
+			(xy 168.91 78.74) (xy 166.37 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4490,16 +4864,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 73.66) (xy 179.07 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "280087dd-b730-443c-9f1f-908ffa5683d1")
-	)
-	(wire
-		(pts
 			(xy 133.35 114.3) (xy 149.86 114.3)
 		)
 		(stroke
@@ -4510,23 +4874,13 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 104.14) (xy 187.96 104.14)
+			(xy 209.55 73.66) (xy 214.63 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29b83e72-0117-4a1a-9dc1-5c5f45e0b5fd")
-	)
-	(wire
-		(pts
-			(xy 167.64 97.79) (xy 167.64 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a2fd72e-5e6c-42d0-92c0-4eeb0968a7cd")
+		(uuid "2a610dc3-3660-496a-97a5-00fe460251cf")
 	)
 	(wire
 		(pts
@@ -4540,13 +4894,23 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 88.9) (xy 158.75 88.9)
+			(xy 133.35 88.9) (xy 161.29 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2c51b053-6d00-4aea-be5c-5ec95ba8c357")
+	)
+	(wire
+		(pts
+			(xy 179.07 97.79) (xy 151.13 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cf5515a-afd0-4375-8278-6b68fb8717d0")
 	)
 	(wire
 		(pts
@@ -4570,7 +4934,17 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 68.58) (xy 181.61 60.96)
+			(xy 219.71 88.9) (xy 222.25 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2de09645-0601-4ae4-9582-ec50f2f8038e")
+	)
+	(wire
+		(pts
+			(xy 214.63 68.58) (xy 214.63 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4590,17 +4964,27 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 93.98) (xy 186.69 93.98)
+			(xy 219.71 78.74) (xy 222.25 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3bd3d0c3-944d-4a6a-8585-c5364b514197")
+		(uuid "355f8e08-27d6-48ae-892d-79e977bfd61a")
 	)
 	(wire
 		(pts
-			(xy 173.99 76.2) (xy 154.94 76.2)
+			(xy 161.29 78.74) (xy 133.35 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3751faa9-c465-4f54-b314-b2588429ec6f")
+	)
+	(wire
+		(pts
+			(xy 154.94 76.2) (xy 196.85 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4650,6 +5034,26 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 83.82) (xy 173.99 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "423e26de-8443-4b35-98fc-cc05d56dc96a")
+	)
+	(wire
+		(pts
+			(xy 184.15 88.9) (xy 186.69 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "439fed6e-bb2d-4148-ba3a-4c32cf28ea32")
+	)
+	(wire
+		(pts
 			(xy 87.63 63.5) (xy 77.47 63.5)
 		)
 		(stroke
@@ -4660,7 +5064,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 66.04) (xy 166.37 66.04)
+			(xy 173.99 104.14) (xy 179.07 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "460bfb74-b460-4c83-96eb-0120321411d0")
+	)
+	(wire
+		(pts
+			(xy 130.81 66.04) (xy 133.35 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4690,6 +5104,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 73.66) (xy 228.6 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bf6f946-fa08-410f-b252-1c27cf150d79")
+	)
+	(wire
+		(pts
 			(xy 153.67 86.36) (xy 153.67 87.63)
 		)
 		(stroke
@@ -4710,23 +5134,23 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 104.14) (xy 172.72 104.14)
+			(xy 196.85 104.14) (xy 209.55 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5957678f-ee0b-4e5f-ba28-fc8799e3a594")
+		(uuid "581000d9-13c8-42fb-b5d0-6095d518bc34")
 	)
 	(wire
 		(pts
-			(xy 133.35 63.5) (xy 173.99 63.5)
+			(xy 214.63 95.25) (xy 148.59 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c742102-173b-4a2d-b0ea-8be54c9e0976")
+		(uuid "597bd48e-38cf-4215-a440-3028de43ea81")
 	)
 	(wire
 		(pts
@@ -4740,6 +5164,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 104.14) (xy 228.6 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ef5fbbd-7690-42b8-b008-31da9cd57330")
+	)
+	(wire
+		(pts
 			(xy 92.71 97.79) (xy 74.93 97.79)
 		)
 		(stroke
@@ -4750,13 +5184,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 86.36) (xy 154.94 86.36)
+			(xy 161.29 104.14) (xy 173.99 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6031a17c-1b2d-44cf-a34a-4a8515dee90a")
+		(uuid "617ed71a-6ef5-439f-9575-464172f06a7b")
 	)
 	(wire
 		(pts
@@ -4767,6 +5201,16 @@
 			(type default)
 		)
 		(uuid "6414bd90-fcea-4d67-a1b6-1e85ac4ed5fd")
+	)
+	(wire
+		(pts
+			(xy 179.07 77.47) (xy 179.07 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6519494f-0174-43f6-bd2a-ff87ecebf450")
 	)
 	(wire
 		(pts
@@ -4790,6 +5234,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 68.58) (xy 168.91 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "683a8a28-4986-4859-b86b-66ddb68b8581")
+	)
+	(wire
+		(pts
 			(xy 72.39 133.35) (xy 72.39 138.43)
 		)
 		(stroke
@@ -4810,6 +5264,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 77.47) (xy 153.67 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eea79bc-548b-4561-8640-d66c32d82158")
+	)
+	(wire
+		(pts
 			(xy 81.28 49.53) (xy 81.28 55.88)
 		)
 		(stroke
@@ -4820,7 +5284,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 68.58) (xy 158.75 68.58)
+			(xy 133.35 68.58) (xy 161.29 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4840,6 +5304,26 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 63.5) (xy 133.35 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ffc0ee2-e8d3-4830-bdbe-bdfef338c98f")
+	)
+	(wire
+		(pts
+			(xy 219.71 68.58) (xy 222.25 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7126122c-55d5-4f17-bae3-a4de29570ebf")
+	)
+	(wire
+		(pts
 			(xy 129.54 49.53) (xy 160.02 49.53)
 		)
 		(stroke
@@ -4850,7 +5334,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 83.82) (xy 191.77 93.98)
+			(xy 228.6 83.82) (xy 228.6 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4860,13 +5344,23 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 83.82) (xy 179.07 83.82)
+			(xy 209.55 83.82) (xy 214.63 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c1e48c3-588b-4e62-a419-d38b69ba9085")
+		(uuid "7738f9da-4473-49ff-b634-a1e3dc2d5ad0")
+	)
+	(wire
+		(pts
+			(xy 130.81 60.96) (xy 133.35 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f3f8207-f565-4603-9b12-cca7e7a6bce9")
 	)
 	(wire
 		(pts
@@ -4890,6 +5384,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 104.14) (xy 214.63 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8186f471-110e-4127-99e6-77e3bec9cb7f")
+	)
+	(wire
+		(pts
 			(xy 69.85 88.9) (xy 69.85 90.17)
 		)
 		(stroke
@@ -4897,6 +5401,26 @@
 			(type default)
 		)
 		(uuid "82c6acf5-f2f1-47f1-b09c-f4ea98354ed0")
+	)
+	(wire
+		(pts
+			(xy 133.35 63.5) (xy 196.85 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d4a35e-eca9-478e-bddf-1f2d7e2168de")
+	)
+	(wire
+		(pts
+			(xy 201.93 78.74) (xy 204.47 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8445cb64-b4c9-4f1b-90e4-57f9eddc3225")
 	)
 	(wire
 		(pts
@@ -4910,17 +5434,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 77.47) (xy 166.37 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8776fbad-76c4-4cd8-a707-4076395e2a6b")
-	)
-	(wire
-		(pts
-			(xy 173.99 63.5) (xy 173.99 68.58)
+			(xy 196.85 63.5) (xy 196.85 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4940,13 +5454,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 73.66) (xy 171.45 73.66)
+			(xy 179.07 87.63) (xy 179.07 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d0faba0-d829-415b-81fe-c51f74b40815")
+		(uuid "8e06ce41-0ff0-4bef-b0fa-1a543ce47fb5")
 	)
 	(wire
 		(pts
@@ -4970,16 +5484,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 60.96) (xy 181.61 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9322f5ca-d67f-4ba8-b22f-c9169704a04a")
-	)
-	(wire
-		(pts
 			(xy 69.85 102.87) (xy 67.31 102.87)
 		)
 		(stroke
@@ -4990,13 +5494,23 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 93.98) (xy 186.69 93.98)
+			(xy 196.85 73.66) (xy 209.55 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94e4b566-7c19-4bf5-8bd4-9867761efb8c")
+		(uuid "93dd7cd5-ec87-42dc-ac9a-70987718b6b2")
+	)
+	(wire
+		(pts
+			(xy 196.85 76.2) (xy 196.85 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "963ff200-5e85-49db-ab27-3c8e6cd57cde")
 	)
 	(wire
 		(pts
@@ -5020,27 +5534,17 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 83.82) (xy 186.69 83.82)
+			(xy 161.29 73.66) (xy 173.99 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a555fda-1bdc-4ee4-8e06-ab75d71c75ec")
+		(uuid "9ad0c31c-226f-439c-8e21-7b6bede9a93b")
 	)
 	(wire
 		(pts
-			(xy 182.88 95.25) (xy 148.59 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a6f3be4-02bf-448d-b874-afb877a63257")
-	)
-	(wire
-		(pts
-			(xy 191.77 73.66) (xy 191.77 83.82)
+			(xy 228.6 73.66) (xy 228.6 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5060,6 +5564,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 104.14) (xy 191.77 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dde9f93-617c-4da8-a4f9-48a464c9da14")
+	)
+	(wire
+		(pts
 			(xy 77.47 71.12) (xy 87.63 71.12)
 		)
 		(stroke
@@ -5070,13 +5584,23 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 88.9) (xy 173.99 86.36)
+			(xy 133.35 66.04) (xy 179.07 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2b055a6-809c-4e11-8036-38d7a1c8df7c")
+		(uuid "9f3951f8-742b-4493-a0ad-9ff4302b7f70")
+	)
+	(wire
+		(pts
+			(xy 201.93 68.58) (xy 204.47 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2721d84-6e04-4ada-ac06-042f237def07")
 	)
 	(wire
 		(pts
@@ -5090,6 +5614,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 99.06) (xy 201.93 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a399f8f8-cc4f-4090-a607-a27db8c6dbbc")
+	)
+	(wire
+		(pts
 			(xy 139.7 96.52) (xy 133.35 96.52)
 		)
 		(stroke
@@ -5100,7 +5634,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 99.06) (xy 160.02 99.06)
+			(xy 152.4 99.06) (xy 161.29 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5117,6 +5651,16 @@
 			(type default)
 		)
 		(uuid "a7838a18-9b9f-430e-9fb3-2f425345e69d")
+	)
+	(wire
+		(pts
+			(xy 214.63 85.09) (xy 214.63 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9d56a2c-0924-4149-95ae-4056e08540a6")
 	)
 	(wire
 		(pts
@@ -5140,6 +5684,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 99.06) (xy 219.71 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae87473b-75a8-4fca-8cec-a4d65c07178d")
+	)
+	(wire
+		(pts
 			(xy 154.94 86.36) (xy 154.94 83.82)
 		)
 		(stroke
@@ -5160,13 +5714,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 95.25) (xy 182.88 99.06)
+			(xy 133.35 60.96) (xy 214.63 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2a90e7a-94a9-407c-83df-0b9aa160ba76")
+		(uuid "b056d57b-3eb6-4ff3-a8f8-476e8032c4f7")
 	)
 	(wire
 		(pts
@@ -5190,33 +5744,33 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 93.98) (xy 179.07 93.98)
+			(xy 196.85 83.82) (xy 209.55 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4f76f18-0718-45d4-baac-51575611bd21")
+		(uuid "b64e1a86-bc39-4027-8a44-eee36c28aa90")
 	)
 	(wire
 		(pts
-			(xy 186.69 73.66) (xy 191.77 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9850034-9ecd-4df3-8d73-a02ac8a826f8")
-	)
-	(wire
-		(pts
-			(xy 149.86 96.52) (xy 175.26 96.52)
+			(xy 149.86 96.52) (xy 196.85 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bfb046dc-e17b-4711-9972-bbe85da41a68")
+	)
+	(wire
+		(pts
+			(xy 227.33 83.82) (xy 228.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc0d549-b9e4-46d1-aea2-c7960368ef90")
 	)
 	(wire
 		(pts
@@ -5310,6 +5864,36 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 83.82) (xy 227.33 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d562874d-900f-47f5-9d0a-f5af6bfc8e31")
+	)
+	(wire
+		(pts
+			(xy 179.07 73.66) (xy 191.77 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56e0d7f-a487-4618-95f8-59905525042a")
+	)
+	(wire
+		(pts
+			(xy 227.33 93.98) (xy 228.6 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d674d019-d989-4cf6-bb8d-f9c9d4c5593a")
+	)
+	(wire
+		(pts
 			(xy 77.47 34.29) (xy 86.36 34.29)
 		)
 		(stroke
@@ -5330,6 +5914,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 95.25) (xy 214.63 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d84d8327-44d0-4c1b-80c7-d1d10cab3a2f")
+	)
+	(wire
+		(pts
 			(xy 115.57 53.34) (xy 116.84 53.34)
 		)
 		(stroke
@@ -5337,6 +5931,56 @@
 			(type default)
 		)
 		(uuid "d87217ea-28ce-4c4c-b9e0-4034f106e6d7")
+	)
+	(wire
+		(pts
+			(xy 196.85 96.52) (xy 196.85 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da9e14ef-aa4e-43dd-a3ed-a98502398280")
+	)
+	(wire
+		(pts
+			(xy 179.07 93.98) (xy 191.77 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc921410-e35f-44bf-b4b0-e29a5b330fcf")
+	)
+	(wire
+		(pts
+			(xy 191.77 93.98) (xy 196.85 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1e0184-f217-4e02-a531-2671ab676483")
+	)
+	(wire
+		(pts
+			(xy 184.15 78.74) (xy 186.69 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1b17574-776a-4fed-ad18-38f3a43f6ef7")
+	)
+	(wire
+		(pts
+			(xy 191.77 83.82) (xy 196.85 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e26ab646-87a5-4ebd-895c-0203f22f5102")
 	)
 	(wire
 		(pts
@@ -5350,23 +5994,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 87.63) (xy 166.37 88.9)
+			(xy 196.85 86.36) (xy 196.85 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e449e420-5f56-4c0e-b70f-e3f926d2a033")
-	)
-	(wire
-		(pts
-			(xy 181.61 85.09) (xy 181.61 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e951acb8-c61b-4bc5-8f27-d706b78f393f")
+		(uuid "e5175d2f-5e8f-457e-b16a-ff1fb6df565b")
 	)
 	(wire
 		(pts
@@ -5390,13 +6024,53 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 93.98) (xy 191.77 104.14)
+			(xy 184.15 68.58) (xy 186.69 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1889269-1164-4117-bb20-dec15d978a46")
+	)
+	(wire
+		(pts
+			(xy 161.29 93.98) (xy 173.99 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1915d2b-68c4-4d23-b3c0-ba8f05f70d9a")
+	)
+	(wire
+		(pts
+			(xy 228.6 93.98) (xy 228.6 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f299b141-1dab-46cd-981a-3d7046d1406e")
+	)
+	(wire
+		(pts
+			(xy 214.63 104.14) (xy 227.33 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2a239b0-ac8c-4258-9438-9d1d631eb79b")
+	)
+	(wire
+		(pts
+			(xy 201.93 88.9) (xy 204.47 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f30ee60d-9133-4725-b6cf-7baa200e7719")
 	)
 	(wire
 		(pts
@@ -5407,6 +6081,26 @@
 			(type default)
 		)
 		(uuid "f40693cc-8715-40a3-a45d-420843feebdb")
+	)
+	(wire
+		(pts
+			(xy 191.77 73.66) (xy 196.85 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6fbfdb1-37e0-40ff-95d8-33287878cd71")
+	)
+	(wire
+		(pts
+			(xy 173.99 93.98) (xy 179.07 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7667420-7887-4489-9d30-25d2f50baa9c")
 	)
 	(wire
 		(pts
@@ -5430,6 +6124,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 99.06) (xy 168.91 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe66359-55da-4e3d-ab84-0fd0d84b9ea0")
+	)
+	(wire
+		(pts
 			(xy 148.59 95.25) (xy 148.59 111.76)
 		)
 		(stroke
@@ -5440,7 +6144,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 68.58) (xy 166.37 66.04)
+			(xy 179.07 68.58) (xy 179.07 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5457,6 +6161,16 @@
 			(type default)
 		)
 		(uuid "ff9179be-9134-4e3a-aa2d-d8e75f07bd12")
+	)
+	(wire
+		(pts
+			(xy 179.07 83.82) (xy 191.77 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb3dc61-c5cb-49ef-ab0f-bc3a8cfe2851")
 	)
 	(label "SWDIO"
 		(at 157.48 125.73 0)
@@ -5539,166 +6253,6 @@
 		(uuid "e9d90631-b04f-4d2b-9d3a-689168386313")
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 184.15 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0166d963-0580-4069-8409-8c4eb414a247")
-		(property "Reference" "SW8"
-			(at 182.626 82.042 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push_45deg"
-			(at 184.15 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
-			(at 184.15 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 184.15 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "236fd142-77b6-47b7-8cb8-be7bd923e03c")
-		)
-		(pin "2"
-			(uuid "1e9ede61-c03e-48ac-91b7-e3de8c2ecb61")
-		)
-		(instances
-			(project "micocalc"
-				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
-					(reference "SW8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 161.29 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "01cbc89d-7a66-45eb-8cb3-37dcc9bf51fd")
-		(property "Reference" "SW9"
-			(at 159.766 92.202 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push_45deg"
-			(at 161.29 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
-			(at 161.29 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 161.29 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dbc00854-110b-427f-88db-535226f1206d")
-		)
-		(pin "2"
-			(uuid "82271363-04e7-441f-a48c-60e8ef8e61d0")
-		)
-		(instances
-			(project "micocalc"
-				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
-					(reference "SW9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 74.93 63.5 90)
 		(unit 1)
@@ -5779,7 +6333,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 184.15 71.12 0)
+		(at 207.01 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5787,9 +6341,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "105d9c64-1c2e-4eed-aaf2-0d8663588d06")
-		(property "Reference" "SW4"
-			(at 182.626 71.882 0)
+		(uuid "077996f0-bc0e-4c73-bf56-e4f4e8e78d39")
+		(property "Reference" "SW15"
+			(at 205.486 102.362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5799,7 +6353,7 @@
 			)
 		)
 		(property "Value" "SW_Push_45deg"
-			(at 184.15 66.04 0)
+			(at 207.01 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5810,7 +6364,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
-			(at 184.15 71.12 0)
+			(at 207.01 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5821,7 +6375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 71.12 0)
+			(at 207.01 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5832,7 +6386,168 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 184.15 71.12 0)
+			(at 207.01 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8fe7cd37-c2cc-427b-9906-36a9bd2c56c2")
+		)
+		(pin "2"
+			(uuid "c916b07a-a467-4196-b59d-bdf4cfc1ab4a")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 196.85 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0c11a60d-92b5-430a-8c14-5e227d5923b7")
+		(property "Reference" "C14"
+			(at 192.532 69.596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 194.31 72.644 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 196.85 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 196.85 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7dfff9e5-c17f-412d-973d-a9222d0fa7ef")
+		)
+		(pin "2"
+			(uuid "c408cdb9-e6eb-4a02-9cb9-93e2e5425af9")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 224.79 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "105d9c64-1c2e-4eed-aaf2-0d8663588d06")
+		(property "Reference" "SW4"
+			(at 223.266 71.882 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 224.79 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
+			(at 224.79 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 224.79 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5852,6 +6567,166 @@
 			(project "micocalc"
 				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
 					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 179.07 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "12ac3d5c-1dcb-4a96-9009-6a5f0143d7e3")
+		(property "Reference" "C21"
+			(at 174.752 89.916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 176.53 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 179.07 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 179.07 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d97d30e-2511-4a66-a23a-7d2a5fb7397d")
+		)
+		(pin "2"
+			(uuid "69b74e82-0f7f-4750-bc2d-bc742fbf6aeb")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 181.61 78.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "14626b95-93dc-4abe-a94f-f010174a1e4c")
+		(property "Reference" "R8"
+			(at 184.404 79.756 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 184.658 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 181.61 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 181.61 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "37906e43-3cf7-4c83-a2f8-1ec6abd94059")
+		)
+		(pin "1"
+			(uuid "b0293320-5129-453b-987a-100421de43e5")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6015,7 +6890,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 177.8 101.6 0)
+		(at 207.01 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6023,9 +6898,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1dc7226d-a220-4812-9cc6-dc0d002cd490")
-		(property "Reference" "SW15"
-			(at 176.276 102.362 0)
+		(uuid "19324162-db12-4dcc-a8ae-7e261a61d890")
+		(property "Reference" "SW11"
+			(at 205.486 92.202 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6035,7 +6910,7 @@
 			)
 		)
 		(property "Value" "SW_Push_45deg"
-			(at 177.8 96.52 0)
+			(at 207.01 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6046,7 +6921,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
-			(at 177.8 101.6 0)
+			(at 207.01 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6057,7 +6932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 101.6 0)
+			(at 207.01 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6068,7 +6943,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 177.8 101.6 0)
+			(at 207.01 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6079,15 +6954,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d75bdb1b-b3b2-4653-ae09-9497ee21b5fe")
+			(uuid "3c4f1334-4b36-46b2-8405-444aad77f8e2")
 		)
 		(pin "2"
-			(uuid "749402fc-e19c-409a-8e1e-fed8b0fabe68")
+			(uuid "2732cca1-9195-4891-a8d0-1f4bf0d43412")
 		)
 		(instances
 			(project "micocalc"
 				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
-					(reference "SW15")
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -6095,7 +6970,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 185.42 101.6 0)
+		(at 224.79 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6103,9 +6978,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "23977210-dc2c-4edd-8593-6319951f09d5")
-		(property "Reference" "SW16"
-			(at 183.896 102.362 0)
+		(uuid "1e987d48-c932-49fc-89a3-d57ca510604b")
+		(property "Reference" "SW8"
+			(at 223.266 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6115,7 +6990,7 @@
 			)
 		)
 		(property "Value" "SW_Push_45deg"
-			(at 185.42 96.52 0)
+			(at 224.79 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6126,7 +7001,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
-			(at 185.42 101.6 0)
+			(at 224.79 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6137,7 +7012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 101.6 0)
+			(at 224.79 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6148,7 +7023,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 185.42 101.6 0)
+			(at 224.79 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6159,15 +7034,96 @@
 			)
 		)
 		(pin "1"
-			(uuid "18d207bc-aff2-429d-af7f-d9920e4b5626")
+			(uuid "ac73a1f6-4a9b-4440-b80d-5bf7f854f228")
 		)
 		(pin "2"
-			(uuid "3d44af19-273c-4ee8-86dc-9c66770550ca")
+			(uuid "3fda9ae3-e7d4-467e-90f8-39fcef4c0527")
 		)
 		(instances
 			(project "micocalc"
 				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
-					(reference "SW16")
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 196.85 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2075c5cb-4666-451d-a698-e2b812857dd1")
+		(property "Reference" "C18"
+			(at 192.532 79.756 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 194.31 82.804 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 196.85 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 196.85 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b5e271fe-c632-48c5-8aca-738b4d9b4546")
+		)
+		(pin "2"
+			(uuid "79e789f8-2695-4aab-a0c0-a353351ced6d")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -6245,6 +7201,166 @@
 			(project "micocalc"
 				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 217.17 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "27645586-e929-4e95-a1b2-80ce26d8fc47")
+		(property "Reference" "R14"
+			(at 220.472 89.916 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 220.218 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 217.17 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 217.17 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5c7afcd8-ce33-47cb-85e7-4f3cf910d9b3")
+		)
+		(pin "1"
+			(uuid "6f11e4d0-109d-4beb-9cb7-d9810ada9675")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 214.63 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2b884257-9dde-49ef-b692-b43a22e5f622")
+		(property "Reference" "C23"
+			(at 210.312 89.916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 212.09 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 214.63 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 214.63 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e203d7d7-369f-4148-8e95-9be60a7306c7")
+		)
+		(pin "2"
+			(uuid "2aa2e08c-e228-47c6-a818-5029839b26b1")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -6351,7 +7467,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "1u"
 			(at 139.7 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6411,8 +7527,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 170.18 101.6 0)
+		(lib_id "Device:R_Small_US")
+		(at 217.17 99.06 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6420,9 +7536,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "375cee8e-72a4-482e-8402-b8dbac82dea5")
-		(property "Reference" "SW14"
-			(at 168.656 102.362 0)
+		(uuid "347ffe83-a3ed-4036-b809-43549847817f")
+		(property "Reference" "R18"
+			(at 220.472 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6431,9 +7547,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push_45deg"
-			(at 170.18 96.52 0)
-			(hide yes)
+		(property "Value" "2.2k"
+			(at 220.218 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6442,8 +7557,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
-			(at 170.18 101.6 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 217.17 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6454,7 +7569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 101.6 0)
+			(at 217.17 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6464,8 +7579,8 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 170.18 101.6 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 217.17 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6474,17 +7589,175 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "2650997f-d33e-408d-9358-46bfaa987722")
 		)
 		(pin "2"
-			(uuid "59760467-55b7-45be-a5ba-ee65f0330c8c")
+			(uuid "49a125dc-b44f-4709-a196-644ee7021eda")
+		)
+		(pin "1"
+			(uuid "74af7895-54ec-44f4-92f9-9c5ac4df1a0d")
 		)
 		(instances
 			(project "micocalc"
 				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
-					(reference "SW14")
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 181.61 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "361e5e93-668c-41cd-8907-219c5607a288")
+		(property "Reference" "R12"
+			(at 184.912 89.916 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 184.658 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 181.61 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 181.61 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "71653701-1fd1-4afa-a410-f5a05fcd13a3")
+		)
+		(pin "1"
+			(uuid "857837fe-9765-4abe-aa12-e3642d158b8c")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 163.83 68.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "37a60cb0-5df4-418d-8388-357529eea6a1")
+		(property "Reference" "R3"
+			(at 167.132 69.596 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 166.878 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 163.83 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 163.83 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5a55998d-aa1a-4d70-a266-9eded2a1989f")
+		)
+		(pin "1"
+			(uuid "e22ee14e-7449-4890-9c18-b706ac9600d4")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6513,7 +7786,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "1u"
 			(at 147.32 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6595,7 +7868,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "1u"
 			(at 154.94 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6656,7 +7929,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 176.53 71.12 0)
+		(at 207.01 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6666,7 +7939,7 @@
 		(dnp no)
 		(uuid "3aacab0c-5c35-43fd-b06d-00c627ca9a99")
 		(property "Reference" "SW3"
-			(at 175.006 71.882 0)
+			(at 205.486 71.882 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6676,7 +7949,7 @@
 			)
 		)
 		(property "Value" "SW_Push_45deg"
-			(at 176.53 66.04 0)
+			(at 207.01 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6687,7 +7960,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
-			(at 176.53 71.12 0)
+			(at 207.01 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6698,7 +7971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 71.12 0)
+			(at 207.01 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6709,7 +7982,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 176.53 71.12 0)
+			(at 207.01 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6729,6 +8002,245 @@
 			(project "micocalc"
 				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 224.79 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3b2c110b-2164-49e6-a60b-5abd56cda545")
+		(property "Reference" "SW16"
+			(at 223.266 102.362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 224.79 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
+			(at 224.79 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 224.79 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02d776bd-d07b-4d8b-a338-9fccefd870a9")
+		)
+		(pin "2"
+			(uuid "a6fb640d-197a-4be6-9a9f-e04e055b14ce")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 189.23 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3b2e74c7-812c-47d4-b856-09c78f0ae5c0")
+		(property "Reference" "SW6"
+			(at 187.706 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 189.23 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
+			(at 189.23 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 189.23 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1d96982-9d9c-4fd7-8bea-f2709e0c3980")
+		)
+		(pin "2"
+			(uuid "3a10f22c-dbbb-4530-ba7f-2dd2dfdd25c2")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 217.17 78.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d8c2397-1405-40ae-be8c-f72aec427c4a")
+		(property "Reference" "R10"
+			(at 220.472 80.264 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 220.218 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 217.17 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 217.17 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "53bd4888-444c-4676-94eb-3a53f45f651c")
+		)
+		(pin "1"
+			(uuid "018a7fab-2266-4758-bdad-b297b0fc77c1")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6819,7 +8331,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 176.53 81.28 0)
+		(at 224.79 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6827,9 +8339,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "495fd5b7-faf7-4380-98b2-053b38b8b745")
-		(property "Reference" "SW7"
-			(at 175.006 82.042 0)
+		(uuid "405fa04f-ea8a-4c2f-9e41-783fab61a87c")
+		(property "Reference" "SW12"
+			(at 223.266 92.202 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6839,7 +8351,7 @@
 			)
 		)
 		(property "Value" "SW_Push_45deg"
-			(at 176.53 76.2 0)
+			(at 224.79 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6850,7 +8362,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
-			(at 176.53 81.28 0)
+			(at 224.79 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6861,7 +8373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 81.28 0)
+			(at 224.79 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6872,7 +8384,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 176.53 81.28 0)
+			(at 224.79 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6883,15 +8395,496 @@
 			)
 		)
 		(pin "1"
-			(uuid "433c27c1-6abf-49c0-9d00-5e2083586f05")
+			(uuid "cce0f095-eb7b-4f94-a164-0ff9169923cb")
 		)
 		(pin "2"
-			(uuid "8bae0959-2be8-4975-a600-8466a552afec")
+			(uuid "79025ad8-fdf5-47cc-bd88-a76fca8d16eb")
 		)
 		(instances
 			(project "micocalc"
 				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
-					(reference "SW7")
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 179.07 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4838a682-2cfb-46b5-99e5-60ae8e96f1cf")
+		(property "Reference" "C13"
+			(at 174.752 69.596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 176.53 72.644 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 179.07 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 179.07 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb122dfd-ad69-402b-8dbc-22f9c4f4ef9a")
+		)
+		(pin "2"
+			(uuid "ada2ea4a-94f3-482a-982a-0477dec251b0")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 214.63 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a13a227-64a8-45d5-bcbd-41358954649e")
+		(property "Reference" "C27"
+			(at 210.312 100.076 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 212.09 103.124 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 214.63 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 214.63 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6596384e-0daa-42b0-9edd-f0f08e3ea305")
+		)
+		(pin "2"
+			(uuid "9c31a488-0407-4506-9a10-1c5bd2ea09c9")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 189.23 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4fff4a0a-1192-417b-a667-7bc9b00663db")
+		(property "Reference" "SW14"
+			(at 187.706 102.362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 189.23 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
+			(at 189.23 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 189.23 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76c2edab-4333-431e-88eb-a1b3d9f2f093")
+		)
+		(pin "2"
+			(uuid "a94f658f-37af-402d-88aa-f4c2449c6e8a")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 196.85 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5e76a879-2949-420c-91a8-e92b12ca3c7f")
+		(property "Reference" "C26"
+			(at 192.532 100.076 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 194.31 103.124 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 196.85 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 196.85 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "587bafdd-3f18-4652-8b13-f53a2c681f0e")
+		)
+		(pin "2"
+			(uuid "d4f0dca8-9aa7-411a-93dd-390ca6ba08fe")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 199.39 68.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5e891260-bc20-4814-bbb1-c899e2b2abee")
+		(property "Reference" "R5"
+			(at 202.184 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 202.438 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 199.39 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 199.39 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bd298b7e-fbbe-4729-8427-ff27d140a091")
+		)
+		(pin "1"
+			(uuid "2574579d-f6c7-447b-8004-c19574236a08")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 163.83 78.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5f6dc2af-3e72-4138-8edb-7111e452b9cd")
+		(property "Reference" "R7"
+			(at 161.036 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 166.878 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 163.83 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 163.83 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "47f79a48-dc8c-474e-b8b8-ae25a6aa4a2d")
+		)
+		(pin "1"
+			(uuid "f6c8db29-8370-418e-9e79-326cdc2c97de")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7153,6 +9146,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 161.29 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "65ee9bb3-6235-4b8d-a4ff-40c7f85a69b4")
+		(property "Reference" "C24"
+			(at 156.972 100.076 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 158.75 103.124 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 161.29 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 161.29 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57fe339a-a5ca-4d0f-aef4-bd72e3dbb6ce")
+		)
+		(pin "2"
+			(uuid "7e78ae99-69c3-4f5a-b62d-3d7c03fc0101")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 69.85 138.43 90)
 		(unit 1)
@@ -7230,8 +9304,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 168.91 91.44 0)
+		(lib_id "Device:R_Small_US")
+		(at 199.39 88.9 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7239,9 +9313,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6eaa7cad-6529-4a79-b0dc-3b68238531ba")
-		(property "Reference" "SW10"
-			(at 167.386 92.202 0)
+		(uuid "6f75ba6b-c90b-4dcb-8b87-8509fd3800ea")
+		(property "Reference" "R13"
+			(at 202.692 89.916 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7250,9 +9324,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push_45deg"
-			(at 168.91 86.36 0)
-			(hide yes)
+		(property "Value" "2.2k"
+			(at 202.438 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7261,8 +9334,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
-			(at 168.91 91.44 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 199.39 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7273,7 +9346,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 91.44 0)
+			(at 199.39 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 199.39 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ae0af064-47d3-4885-b4aa-ffeceeffc6ca")
+		)
+		(pin "1"
+			(uuid "14cb1844-951e-4aeb-88e7-551be6f901f6")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 189.23 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "76132706-6303-490c-a553-0155b43b5ed8")
+		(property "Reference" "SW10"
+			(at 187.706 92.202 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 189.23 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
+			(at 189.23 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7284,7 +9437,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 168.91 91.44 0)
+			(at 189.23 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7295,10 +9448,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b3699c8d-ea90-48a9-8c2a-644a37a8d92c")
+			(uuid "5e33124c-edab-4703-8b79-8b03693852dd")
 		)
 		(pin "2"
-			(uuid "d3b26f39-e55c-447e-a85f-3ff344f91098")
+			(uuid "7137db42-4bfa-4d19-a9db-343c1f716686")
 		)
 		(instances
 			(project "micocalc"
@@ -7409,7 +9562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "1u"
 			(at 170.18 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7463,6 +9616,87 @@
 			(project "micocalc"
 				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 196.85 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7d8583eb-ee8d-428d-8e81-b45f6e929c3d")
+		(property "Reference" "C22"
+			(at 192.532 89.916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 194.31 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 196.85 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 196.85 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "42cc438e-99aa-4be6-9319-4fa036148d90")
+		)
+		(pin "2"
+			(uuid "0e174ed9-cc49-4e70-8e93-b8205b19db70")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -7552,6 +9786,166 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 214.63 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "800237f4-901b-4469-aa5b-2c72157b68e4")
+		(property "Reference" "C15"
+			(at 210.312 69.596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 212.09 72.644 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 214.63 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 214.63 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "505a1625-4b74-4a80-9ebc-a9a7c0e1ba14")
+		)
+		(pin "2"
+			(uuid "06c66fd7-ba22-4fa4-8196-43f374e3863f")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 199.39 99.06 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8098057d-23d5-40ef-9cc3-e7182810e1ba")
+		(property "Reference" "R17"
+			(at 202.692 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 202.438 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 199.39 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 199.39 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "226a6444-0c90-4523-b127-cde552e0977a")
+		)
+		(pin "1"
+			(uuid "3bea3dc3-a089-434e-8089-78ed0fcdd50a")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 91.44 52.07 0)
 		(unit 1)
 		(body_style 1)
@@ -7572,8 +9966,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
-			(at 85.852 53.594 0)
+		(property "Value" "1u"
+			(at 91.948 53.848 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7632,8 +10026,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 161.29 71.12 0)
+		(lib_id "Device:C_Small")
+		(at 179.07 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7641,19 +10035,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "947ab0d7-1526-40b3-bc85-2e46aca8de4a")
-		(property "Reference" "SW1"
-			(at 159.766 71.882 0)
+		(uuid "908c131f-0964-4fa9-8a75-f21cbaa080b5")
+		(property "Reference" "C25"
+			(at 174.752 100.076 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_Push_45deg"
-			(at 161.29 66.04 0)
+		(property "Value" "1u"
+			(at 176.53 103.124 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 179.07 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7663,7 +10069,158 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
+		(property "Datasheet" ""
+			(at 179.07 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 179.07 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da87663b-35bc-4f2c-b7c5-ed9b08453959")
+		)
+		(pin "2"
+			(uuid "474dcf66-f2c7-40d2-9227-ca8284a629d0")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 214.63 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "91025ab9-6c69-440f-95dc-bfcb60d80ce2")
+		(property "Reference" "C19"
+			(at 210.312 79.756 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 212.09 82.804 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 214.63 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 214.63 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "07f12c8e-39e9-4a57-a6ea-ad47d523e144")
+		)
+		(pin "2"
+			(uuid "3406322b-179e-4494-bade-45688b3e23d9")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 161.29 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "92bc8053-a2e8-4140-99a4-560cb57bee0c")
+		(property "Reference" "C12"
+			(at 156.972 69.596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 158.75 72.644 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 161.29 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7685,8 +10242,88 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 161.29 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c5e446c-08f3-4bfe-bd6f-884f306cd13a")
+		)
+		(pin "2"
+			(uuid "8bad91f4-c73b-4d57-ad1e-81f15fa2bc69")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 171.45 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "947ab0d7-1526-40b3-bc85-2e46aca8de4a")
+		(property "Reference" "SW1"
+			(at 169.926 71.882 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 171.45 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
+			(at 171.45 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 161.29 71.12 0)
+			(at 171.45 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7706,6 +10343,86 @@
 			(project "micocalc"
 				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 171.45 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "986747b0-514d-4911-b291-ce92077dff79")
+		(property "Reference" "SW13"
+			(at 169.926 102.362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 171.45 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
+			(at 171.45 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 171.45 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fdf46c2a-909d-4a55-ad8c-8fd7ff9d537e")
+		)
+		(pin "2"
+			(uuid "8b26f7c3-adf4-4288-a3ef-db0522ad3489")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -7976,7 +10693,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "1u"
 			(at 162.56 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8030,6 +10747,86 @@
 			(project "micocalc"
 				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 207.01 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad9765b5-db28-474e-a9a2-08d88957ebb2")
+		(property "Reference" "SW7"
+			(at 205.486 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 207.01 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
+			(at 207.01 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 207.01 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60bc93f5-adb8-40ac-aa70-d9afb7172fe4")
+		)
+		(pin "2"
+			(uuid "7d0abfa9-7f85-4cf4-a78a-2d5a88eb3213")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -8115,8 +10912,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 162.56 101.6 0)
+		(lib_id "Device:R_Small_US")
+		(at 199.39 78.74 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8124,9 +10921,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "afa65ac8-7d37-4075-a75b-e9ae7b13ba93")
-		(property "Reference" "SW13"
-			(at 161.036 102.362 0)
+		(uuid "b0181847-0f6f-4082-8535-d7cdba5555e4")
+		(property "Reference" "R9"
+			(at 202.438 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8135,9 +10932,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push_45deg"
-			(at 162.56 96.52 0)
-			(hide yes)
+		(property "Value" "2.2k"
+			(at 202.438 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8146,8 +10942,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
-			(at 162.56 101.6 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 199.39 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8158,7 +10954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 101.6 0)
+			(at 199.39 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8168,8 +10964,8 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 162.56 101.6 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 199.39 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8178,17 +10974,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "7442ce9c-8ccf-4389-b02d-78023bf47dcb")
 		)
 		(pin "2"
-			(uuid "9575bfc6-451f-4618-bd53-fbcb08900053")
+			(uuid "a0605c71-8657-400c-91d6-de72ab125d13")
+		)
+		(pin "1"
+			(uuid "289587a6-c9f6-42c6-9370-842a600dc0e9")
 		)
 		(instances
 			(project "micocalc"
 				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
-					(reference "SW13")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8196,7 +10992,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 191.77 104.14 0)
+		(at 228.6 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8207,7 +11003,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5420f7c-c4d0-4081-9a85-4d72803a770c")
 		(property "Reference" "#PWR010"
-			(at 191.77 110.49 0)
+			(at 228.6 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8218,7 +11014,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 109.22 0)
+			(at 228.6 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8228,7 +11024,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 104.14 0)
+			(at 228.6 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8239,7 +11035,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 104.14 0)
+			(at 228.6 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8250,7 +11046,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 104.14 0)
+			(at 228.6 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8273,8 +11069,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 184.15 91.44 0)
+		(lib_id "Device:R_Small_US")
+		(at 163.83 99.06 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8282,9 +11078,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b763bab9-eff0-4cbc-9c2d-2498ed20d779")
-		(property "Reference" "SW12"
-			(at 182.626 92.202 0)
+		(uuid "b6c211e6-837b-4064-bfd8-46742a7f3069")
+		(property "Reference" "R15"
+			(at 167.132 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8293,9 +11089,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push_45deg"
-			(at 184.15 86.36 0)
-			(hide yes)
+		(property "Value" "2.2k"
+			(at 166.878 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8304,8 +11099,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
-			(at 184.15 91.44 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 163.83 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8316,7 +11111,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 91.44 0)
+			(at 163.83 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8326,8 +11121,8 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 184.15 91.44 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 163.83 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8336,17 +11131,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "3b9d1edf-ce3d-4e5a-8db4-c1481685ca36")
 		)
 		(pin "2"
-			(uuid "2ba075e1-0ee4-41aa-baf5-11964bc2e3f8")
+			(uuid "e31f2847-468b-4a88-a4b1-86e35884f933")
+		)
+		(pin "1"
+			(uuid "b53e1789-00fa-4dff-bdf4-b62ad8d532c4")
 		)
 		(instances
 			(project "micocalc"
 				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
-					(reference "SW12")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -8386,7 +11181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 96.2152 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8429,86 +11224,6 @@
 			(project "micocalc"
 				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 168.91 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b8758e2d-424f-440a-9712-6cec4ae6489a")
-		(property "Reference" "SW6"
-			(at 167.386 82.042 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push_45deg"
-			(at 168.91 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
-			(at 168.91 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 168.91 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b93b9049-a8db-4832-8f3d-a21c1aed8742")
-		)
-		(pin "2"
-			(uuid "350b21ee-7767-495f-baeb-1cc2a03deead")
-		)
-		(instances
-			(project "micocalc"
-				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
-					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -8985,6 +11700,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 179.07 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c72b135f-aacd-4e94-9742-6edada3846fb")
+		(property "Reference" "C17"
+			(at 174.752 79.756 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 176.53 82.804 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 179.07 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 179.07 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb5a8930-4714-4d55-9dbd-b1c525504a62")
+		)
+		(pin "2"
+			(uuid "0935e6dd-757d-4492-bff5-6f4e556ef98e")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 92.71 71.12 0)
 		(unit 1)
@@ -9057,6 +11853,86 @@
 			(project "micocalc"
 				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 171.45 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c9dcd263-b19f-41e0-92f4-8744c29bca22")
+		(property "Reference" "SW9"
+			(at 169.926 92.202 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 171.45 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
+			(at 171.45 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 171.45 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43dec3fb-179b-44e2-afe9-1d0e2464c42d")
+		)
+		(pin "2"
+			(uuid "210c8a8f-e92e-4b25-93c7-2c952128a8b2")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -9297,6 +12173,166 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 181.61 99.06 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d3e9489f-e071-4405-ad1f-ebdc2b21e47b")
+		(property "Reference" "R16"
+			(at 184.912 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 184.658 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 181.61 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 181.61 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b6c1bed0-316e-44d8-8133-60280c5b901c")
+		)
+		(pin "1"
+			(uuid "1a7b2dcc-db18-4a92-86dd-b7399aa381ae")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 161.29 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d4e46567-8102-4d2c-973b-55328763f896")
+		(property "Reference" "C20"
+			(at 156.972 89.916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 158.75 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 161.29 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 161.29 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1086ad9-966d-4eeb-8b97-bc2e1dc4bd7b")
+		)
+		(pin "2"
+			(uuid "fe35b127-815f-4236-af95-788bb1fbc35c")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 69.85 26.67 0)
 		(unit 1)
@@ -9377,6 +12413,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 181.61 68.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e29158b2-6f35-4d57-831c-ae9d5ee7f2a7")
+		(property "Reference" "R4"
+			(at 184.404 69.596 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 184.658 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 181.61 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 181.61 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "66b35a72-1597-4e27-b239-41030ca6e57b")
+		)
+		(pin "1"
+			(uuid "45ab1871-62de-4ae2-bae5-450a19b45c59")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 129.54 46.99 0)
 		(unit 1)
@@ -9399,7 +12514,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "1u"
 			(at 132.08 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9536,8 +12651,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 161.29 81.28 0)
+		(lib_id "Device:R_Small_US")
+		(at 163.83 88.9 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9545,9 +12660,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f2934a43-500d-4be9-9061-bb2e7efd4dd5")
-		(property "Reference" "SW5"
-			(at 159.766 82.042 0)
+		(uuid "e6ccade6-51f4-42dd-8c65-f4e7740250a9")
+		(property "Reference" "R11"
+			(at 167.132 89.916 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9556,9 +12671,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push_45deg"
-			(at 161.29 76.2 0)
-			(hide yes)
+		(property "Value" "2.2k"
+			(at 166.878 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9567,8 +12681,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
-			(at 161.29 81.28 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 163.83 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9579,7 +12693,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 81.28 0)
+			(at 163.83 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 163.83 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "33015c72-dfb7-404a-bc59-826f3b1be13b")
+		)
+		(pin "1"
+			(uuid "1fbaf6aa-a227-4de2-a28f-62a5810dd9da")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 171.45 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e708efbb-6c0e-4305-94b4-1e17906f1f28")
+		(property "Reference" "SW5"
+			(at 169.926 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 171.45 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
+			(at 171.45 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9590,7 +12784,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 161.29 81.28 0)
+			(at 171.45 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9601,10 +12795,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bb74dcf5-8094-4c03-9b15-55d4251c4954")
+			(uuid "8c312892-b409-45f5-8047-ab5101c7abf9")
 		)
 		(pin "2"
-			(uuid "19ed4f0c-33bc-4844-9c5a-be952364bdb0")
+			(uuid "4c29e881-9c2e-4791-83fc-94a8881e031c")
 		)
 		(instances
 			(project "micocalc"
@@ -9806,7 +13000,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 78.4352 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9855,8 +13049,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 168.91 71.12 0)
+		(lib_id "Device:R_Small_US")
+		(at 217.17 68.58 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9864,9 +13058,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fd0035c4-9499-42f1-b05a-e65d2a7174cf")
-		(property "Reference" "SW2"
-			(at 167.386 71.882 0)
+		(uuid "f8076f04-d0c0-42a7-8660-819523cbf64a")
+		(property "Reference" "R6"
+			(at 219.964 69.596 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9875,9 +13069,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push_45deg"
-			(at 168.91 66.04 0)
-			(hide yes)
+		(property "Value" "2.2k"
+			(at 220.218 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9886,8 +13079,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
-			(at 168.91 71.12 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 217.17 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9898,7 +13091,168 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 71.12 0)
+			(at 217.17 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 217.17 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "17cd6fd5-302b-409f-a127-59bbc4a1db4e")
+		)
+		(pin "1"
+			(uuid "50620223-1e8f-46d7-8806-cbf101003c0b")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 161.29 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f8cb1711-c199-4c13-8032-f2b96aa3c5ea")
+		(property "Reference" "C16"
+			(at 156.972 79.756 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 158.75 82.804 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 161.29 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 161.29 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "98c1a266-d0b9-4b78-8da9-db6d11f0bbec")
+		)
+		(pin "2"
+			(uuid "1998e28c-1319-4842-b11e-2e73da257035")
+		)
+		(instances
+			(project "micocalc"
+				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 189.23 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fd0035c4-9499-42f1-b05a-e65d2a7174cf")
+		(property "Reference" "SW2"
+			(at 187.706 71.882 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 189.23 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
+			(at 189.23 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9909,7 +13263,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 168.91 71.12 0)
+			(at 189.23 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9929,86 +13283,6 @@
 			(project "micocalc"
 				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 176.53 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fd422336-208a-429a-a991-5f0a53543447")
-		(property "Reference" "SW11"
-			(at 175.006 92.202 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push_45deg"
-			(at 176.53 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
-			(at 176.53 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 176.53 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5b7b4720-7640-4c89-b59b-976b16149a0b")
-		)
-		(pin "2"
-			(uuid "1e911164-23ac-4102-94df-39d07f808773")
-		)
-		(instances
-			(project "micocalc"
-				(path "/656bf03d-fe5f-43fd-8211-af3455f32b4f"
-					(reference "SW11")
 					(unit 1)
 				)
 			)

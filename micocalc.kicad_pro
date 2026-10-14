@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -122,7 +122,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "ignore",
         "silk_over_copper": "ignore",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -698,7 +698,7 @@
         "uuid": "656bf03d-fe5f-43fd-8211-af3455f32b4f"
       }
     ],
-    "used_designators": "H1-4,#FLG1,R1-2,C1-11,Y1,#PWR1-15,J1-2,U1-3,SW1-19",
+    "used_designators": "H1-4,#FLG1,R1-18,C1-27,Y1,#PWR1-15,J1-2,U1-3,SW1-19",
     "variants": []
   },
   "sheets": [
